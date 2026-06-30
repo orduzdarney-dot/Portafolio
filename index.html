@@ -1,210 +1,187 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer proyecto</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christofer Orduz – Desarrollador de Software</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        
-        <h1>Portafolio Christofer Orduz</h1>
-        <nav id="navegacion">
-            <ul>
-                <li><a href="#sobre-mi">Sobre mi</a></li>
-                <li><a href="#Trayectoria">Trayectoria</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#Habilidades">Habilidades</a></li>
-                <li><a href="#Conocimientos">Conocimientos</a></li>
-                <li><a href="#Formulario">Formulario</a></li>
-            </ul>
-        </nav>
-    </header>
-    <hr>
-    <main>
-        <section id="sobre-mi">
-            <div id="presentacion">
-                <h2>Hola soy Christofer Orduz</h2>
-                <p>Estudiante en desrrollo de software en campuslands</p>
-                <hr>
-                <p></p>
-                <a href="#proyectos"><button>Ver mis proyectos</button></a>
-            </div>
-            <div id="imagen-yo">
-                <img src="https://i.pinimg.com/736x/dd/73/37/dd7337b65658ea0f98480efd3b34677f.jpg"
-                    alt="Imagen" height="300px"> 
-            </div>
-        </section>
-        <hr>
-        <section id="Trayectoria">
-            <div>
-                <h2>Trayectoria</h2>
-                <hr>
-                <p>en formacion : desarrollo de software </p>
-            </div>
-        </section>
-        <hr>
-    <section id="proyectos" class="secciones-personalizadas">
-            <article id="Pizzería don Picolo" class="proyectos-trabajados">
-                <a href="https://www.pizzaspiccolo.com.co/"
-                    target="_blank"><img
-                        src="https://pbs.twimg.com/profile_images/1682054013993320450/AMGG3BJg.jpg"
-                        alt="pizzeria"></a>
-                <h3><a href="https://www.pizzaspiccolo.com.co/"
-                        target="_blank">Pizzería don picolo</a></h3>
-                <p>Este proyecto fue desarrollado en MySQL con la finalidad de abstraer y comprender los temarios vistos
-                    en clase <br>
-                    tales como: <br>
-                <ul>
-                    <li>DDL</li>
-                    <li>DQL</li>
-                    <li>DML</li>
-                    <li>Disparadores</li>
-                    <li>Funciones</li>
-                    <li>Procedure</li>
-                </ul>
-                </p>
-            </article>
-            <article id="Gestion-Herramientas" class="proyectos-trabajados">
-                <a href="https://github.com/orduzdarney-dot/gestion-herramientas"
-                    target="_blank"><img
-                        src="https://www.programaenlinea.net/wp-content/uploads/2024/10/Python-Emblem.png"
-                        alt="pizzeria"></a>
-                <h3><a href="https://github.com/orduzdarney-dot/gestion-herramientas"
-                        target="_blank">Gestionar Herramientas</a></h3>
-                <p>Este proyecto fue desarrollado en python con la finalidad de abstraer y comprender los temarios vistos
-                    en clase <br>
-                    tales como: <br>
-                <ul>
-                    <li>Listas Json</li>
-                    <li>Bucles</li>
-                    <li>Condicionales</li>
-                    <li>Funciones</li>
-                </ul>
-                </p>
-            </article>
-            <article id="MMA" class="proyectos-trabajados">
-                <a href="https://github.com/orduzdarney-dot/github_examen"
-                    target="_blank"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
-                        alt="pizzeria"></a>
-                <h3><a href="https://github.com/orduzdarney-dot/github_examen"
-                        target="_blank">github_examen</a></h3>
-                <p>Este proyecto fue desarrollado en github ,con la finalidad de practicar y entender los temas vistos
-                en clase 
-                     
-                
-                </p>
-            </article>
-        </section>
 
-        <hr>
 
-        <section id="Habilidades">
-            <h2>Habilidades</h2>
-            <table border="1">
-                <thead id="cabeza-tabla">
-                    <tr>
-                        <th colspan="3">Temas</th>
-                    </tr>
-                </thead>
-                <tbody id="tabla">
-                    <tr>
-                        <td rowspan="3">Python</td>
-                        <td colspan="2">Archivos Json</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Archivos de texto</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Modular</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="3">github</td>
-                        <td colspan="2">Commit</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Pull and request</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">push</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="3", colspan="2">Resumen</td>
-                        <td colspan="2">Un Resumen</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Un resumen</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Un resumen</td>
-                    </tr>
-                </tbody>
-            </table>
+<nav>
+  <a href="#home" class="logo">Christofer</a>
+  <div class="nav-links">
+    <a href="#home">Inicio</a>
+    <a href="#about">Sobre mí</a>
+    <a href="#projects">Proyectos</a>
+  </div>
+</nav>
 
-            <hr>
 
-        </section>
-        <hr>
-        <section id="Conocimientos">
-            <h2> Conocimientos</h2>
-            <article id="Backend">
-                <h3>Backend</h3>
-                <ul>
-                    <p>Python</p>
-                </ul>
-            </article>
+<section id="home">
+  <p class="hero-greeting fade-in">Hola 👋 Soy <span>Christofer Orduz</span></p>
 
-            <article id="Frontend">
-                <h3> Frontend</h3>
-                <ul>
-                    <p>Html</p>
-                    <p>Css</p>
-                </ul>
-            </article>
-        </section>
+  <div class="avatar-wrap fade-in">
+    
+        <img src="foto.jpg" alt="Christofer Orduz" /> 
+    
+  </div>
 
-        <hr>
+  <p class="hero-tagline fade-in">Un estudiante que cree en una idea simple:</p>
+  <h1 class="hero-headline fade-in">
+    Menos<br>problemas.<br>Más <span class="hl">soluciones</span>.
+  </h1>
+  <p class="hero-sub fade-in">
+    Estudiante de Desarrollo de Software en Campuslands, construyendo proyectos reales
+    con código limpio y ganas de seguir aprendiendo cada día.
+  </p>
+  <div class="hero-cta fade-in">
+    <a href="#projects" class="btn-primary">Ver proyectos</a>
+    <a href="#contact" class="btn-secondary">Contáctame</a>
+  </div>
+</section>
+<div class="divider"></div>
 
-        <section id="Formulario">
-            <h2 id="Titulo-f">Formulario de registro</h2>
-            
-            <form action="/styles.css" method="get"></form>
-            <label for="">Nombre</label>
-            <input type="text" placeholder="Ingrese el Nombre">
-            <br>
-            <label for="">Edad</label>
-            <input type="number" name="" id="" placeholder="Ingrese la Edad">
-            <br>
-            <label for="">Inserte Archivo</label>
-            <input type="file">
-            <br>
-            <label for="">Correo</label>
-            <input type="email" name="" id="" placeholder="Ingrese el correo">
-            
-            
-            <br>
-            <label for="Masculino"><input type="radio" name="Sexo" id="Masculino" value="M"> Masculino</label>
-            <br>
-            <label for="Femenino"><input type="radio" name="Sexo" id="Femenino" value="Femenino" value="F"> Femenino</label>
-            <br>
-            
-            <label for="acepto"><input type="checkbox" name="aceptar" id="acepto">aceptar terminos y condiciones</label>
-            <br>
-            <input type="submit" value="Ok">
-        </section>
-        
-        <section id="collage">
-        
-        
-            <img id="img1"src="https://i.pinimg.com/1200x/36/13/ad/3613ad29cbcd2809df6e713e7b083e3d.jpg" alt="collage">
-            <img id="img2" src="https://i.pinimg.com/736x/7d/ae/e0/7daee07ff2ef412a37faac3a9d916862.jpg" alt="">
-            <img id="img3" src="https://i.pinimg.com/736x/2d/93/4c/2d934cf48b1df32e88c279044a6516ab.jpg" alt="">
-            <img id="img4"src="https://i.pinimg.com/736x/d6/42/41/d64241d14ce4a688097f72581cf6ecbe.jpg" alt="">
-            <img id="img5" src="https://i.pinimg.com/736x/27/b9/29/27b9294958e263267c4df9ecde37af18.jpg" alt="">
-            <img id="img6" src="https://i.pinimg.com/736x/39/e5/c3/39e5c370a275eeed75c59bdfcbf719ba.jpg" alt="">
-        </section>
-    </main>
+<!-- ABOUT -->
+<section id="about">
+  <h2 class="typing-wrap fade-in">
+    <span id="typed-text"></span><span class="cursor"></span>
+  </h2>
+  <p class="current-role fade-in">Actualmente estudio en</p>
+  <div class="campus-badge fade-in">🎓 Campuslands – Desarrollo de Software</div>
+  <p class="bio fade-in">
+    Tengo 18 años y una pasión genuina por convertir ideas en código. Me estoy formando como
+    desarrollador de software con enfoque en la web — aprendiendo a construir desde cero,
+    entendiendo cómo funciona todo por dentro, y disfrutando cada reto que aparece en el camino.
+    Creo que la mejor forma de aprender es haciendo, por eso cada proyecto es una oportunidad
+    de crecer.
+  </p>
+  <h3 class="skills-title fade-in">Tecnologías que manejo</h3>
+  <div class="skills-grid">
+    <div class="skill-chip fade-in"><div class="s-icon">🌐</div><div class="s-name">HTML</div></div>
+    <div class="skill-chip fade-in"><div class="s-icon">🎨</div><div class="s-name">CSS</div></div>
+    <div class="skill-chip fade-in"><div class="s-icon">⚡</div><div class="s-name">JavaScript</div></div>
+    <div class="skill-chip fade-in"><div class="s-icon">🐍</div><div class="s-name">Python</div></div>
+    <div class="skill-chip fade-in"><div class="s-icon">🗄️</div><div class="s-name">MySQL</div></div>
+    <div class="skill-chip fade-in"><div class="s-icon">🔀</div><div class="s-name">Git</div></div>
+    <div class="skill-chip fade-in"><div class="s-icon">🐙</div><div class="s-name">GitHub</div></div>
+  </div>
+</section>
+<div class="divider"></div>
+
+<!-- PROYECTOS -->
+<section id="projects">
+  <h2 class="section-title fade-in">Proyectos</h2>
+  <div class="cards">
+
+    <!-- Proyecto 1 -->
+    <div class="card fade-in">
+      <div class="card-header">
+        <span class="card-icon">🔧</span>
+        <h3>Gestión de Herramientas</h3>
+      </div>
+      <p>
+        Aplicación desarrollada en Python para gestionar el control de herramientas,
+        registrando entradas, salidas y ajustes con auditoría de cada operación.
+        Diseñada para comunidades que requieren trazabilidad completa de movimientos de stock.
+      </p>
+      <div class="card-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Gestión de inventario</span><span class="tag">Auditoría</span>
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/orduzdarney-dot/gestion-herramientas" target="_blank" class="github-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.165c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          VER EN GITHUB -
+        </a>
+      </div>
+    </div>
+
+    <!-- Proyecto 2 -->
+    <div class="card fade-in">
+      <div class="card-header">
+        <span class="card-icon">🧒</span>
+        <h3>Proyecto Kids</h3>
+      </div>
+      <p>
+        Aplicación web moderna para la administración centralizada de rutas escolares.
+         Optimiza la logística de transporte permitiendo gestionar conductores 
+         y estudiantes en una interfaz fluida sin recargas, construida con JavaScript
+          vanilla y persistencia de datos local.
+      </p>
+      <div class="card-tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/orduzdarney-dot/Proyecto-kids" target="_blank" class="github-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.165c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          VER EN GITHUB -
+        </a>
+      </div>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <div class="card fade-in">
+      <div class="card-header">
+        <span class="card-icon">🐾</span>
+        <h3>Patitas Felices</h3>
+      </div>
+      <p>
+        Sitio web para un refugio de animales. Los visitantes pueden explorar mascotas
+        disponibles para adopción, conocer sus historias y datos de salud, ver galería
+        de eventos, y encontrar formas de colaborar: adoptar, donar o ser voluntario.
+      </p>
+      <div class="card-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">Diseño web</span>
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/OscarDavidRodriguezPorras/Patitas-felices" target="_blank" class="github-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.165c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          VER EN GITHUB -
+        </a>
+        <span class="collab-badge">👥 En colaboración</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="contact-title fade-in">Contacto</h2>
+  <p class="contact-desc fade-in">
+    ¿Tienes un proyecto en mente o quieres colaborar?
+    Estoy abierto a nuevas oportunidades y conexiones.
+    Escríbeme, con gusto hablamos.
+  </p>
+  <a href="mailto:orduzdarney@gmail.com" class="email-link fade-in">orduzdarney@gmail.com</a>
+  <div class="socials fade-in">
+    <!-- GitHub -->
+    <a href="https://github.com/orduzdarney-dot" target="_blank" class="social-btn" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" fill="var(--white)">
+        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.165c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+      </svg>
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/" target="_blank" class="social-btn" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" fill="#0A66C2">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+<div class="divider"></div>
+<footer>© 2026 Christofer Orduz.</footer>
+
+<script src="apli.js"></script>
 </body>
 </html>
