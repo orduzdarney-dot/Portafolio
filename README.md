@@ -104,13 +104,6 @@ Para implementar este diseño:
 
 ---
 
-## 📷 Referencia
 
-Este README está basado en el diseño proporcionado en Figma, respetando la estructura visual y la organización de contenidos.
 
----
-
-https://www.figma.com/design/sayj7AeDqZGkdnEmQ8gQOB/Sin-t%C3%ADtulo?node-id=0-1&t=47AbiuTpvbG0bufU-1
-
----
 
